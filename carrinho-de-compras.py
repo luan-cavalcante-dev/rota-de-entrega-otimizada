@@ -5,7 +5,7 @@ produtos_disponiveis = {
     3: {"nome": "Película", "preco": 25.00},
     4: {"nome": "boobgodyes kit", "preco": 190.00},
     5: {"nome": "Garrafa termica 1L", "preco": 100.00}
-    
+
 }
 
 # Carrinho usando estrutura de dados pilha
@@ -48,7 +48,7 @@ def mostrar_carrinho():
         total += produto['preco']
     print(f"Total: R$ {total:.2f}")
 
-# Menu principal
+# Menu principal.
 def menu():
     while True:
         print("\n===== MENU =====")
